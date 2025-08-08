@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.log
+*.pot
+*.mo
+*.js.map
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py  # Or any other sensitive settings file not meant for VCS
+db.sqlite3
+media/  # User-uploaded media files
+static/ # Collected static files (if you serve them from a separate location)
+
+# Virtual Environment
+.env
+venv/
+env/
+
+# IDE-specific files
+.idea/  # PyCharm/IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.swp
+*~
+.ipynb_checkpoints/

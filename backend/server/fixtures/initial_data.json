@@ -1,0 +1,53 @@
+[
+    {
+        "model": "server.company",
+        "pk": 1,
+        "fields": {
+            "name": "Slack",
+            "email": "slack@demo.com",
+            "image": "company_logos/company_icon.svg"
+        }
+    },
+    {
+        "model": "server.job",
+        "pk": 1,
+        "fields": {
+            "title": "Full Stack Developer",
+            "location": "California",
+            "level": "Senior Level",
+            "company": 1,
+            "description": "<p>We are seeking a highly skilled Full Stack Developer to join our dynamic and innovative team. The ideal candidate will have a passion for developing scalable web applications and working across the entire technology stack, including front-end and back-end development. You will have the opportunity to work with the latest technologies and contribute to exciting projects that impact our users directly.</p><h2><strong>Key Responsibilities</strong></h2><ol><li>Build, test, and deploy highly responsive web applications.</li><li>Design user-friendly interfaces using HTML, CSS, and JavaScript.</li><li>Develop and maintain APIs and databases to support application functionality.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Identify and resolve bottlenecks and bugs to optimize application performance.</li></ol><h2><strong>Skills Required</strong></h2><ol><li>Proficiency in HTML, CSS, and JavaScript frameworks (e.g., React, Angular).</li><li>Experience with server-side languages (e.g., Node.js, Python).</li><li>Familiarity with relational and non-relational databases (e.g., MySQL, MongoDB).</li><li>Strong understanding of web security and performance optimization.</li><li>Ability to work in an Agile environment.</li></ol>",
+            "salary": 82000,
+            "date": "2024-08-22T00:00:00Z",
+            "category": "Programming"
+        }
+    },
+    {
+        "model": "server.job",
+        "pk": 2,
+        "fields": {
+            "title": "Data Scientist",
+            "location": "New York",
+            "level": "Intermediate Level",
+            "company": 1,
+            "description": "<p>Join our analytics team to help drive business decisions using data. As a Data Scientist, you will leverage your analytical skills to uncover patterns and insights that will influence our strategic direction. You will work closely with stakeholders to understand their needs and deliver impactful analyses that support our growth objectives.</p><h2><strong>Key Responsibilities</strong></h2><ol><li>Analyze large datasets to uncover trends and patterns.</li><li>Develop predictive models to forecast outcomes.</li><li>Create data visualizations and reports.</li><li>Collaborate with cross-functional teams.</li><li>Optimize data collection processes.</li></ol>",
+            "salary": 72000,
+            "date": "2024-09-15T00:00:00Z",
+            "category": "Data Science"
+        }
+    },
+    {
+        "model": "server.job",
+        "pk": 3,
+        "fields": {
+            "title": "UI/UX Designer",
+            "location": "Bangalore",
+            "level": "Beginner Level",
+            "company": 1,
+            "description": "<p>Create intuitive digital experiences as a UI/UX Designer. In this role, you will collaborate with product teams to design engaging user interfaces and ensure a seamless user journey.</p><h2><strong>Key Responsibilities</strong></h2><ol><li>Create user interface designs and prototypes</li><li>Conduct user research and testing</li><li>Develop design systems and guidelines</li><li>Collaborate with development teams</li><li>Iterate designs based on feedback</li></ol>",
+            "salary": 65000,
+            "date": "2024-10-01T00:00:00Z",
+            "category": "Design"
+        }
+    }
+]
